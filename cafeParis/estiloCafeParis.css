@@ -68,6 +68,8 @@ body {
   body {
     background-image: url("imagenes/descargar.jpeg"); 
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   ul li {
