@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contácte con Nosotros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/af19d882b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estiloCafeParis.css">
+</head>
+<body>
+    <h2>Contácte con Nosotros</h2>
+    <form action="procesacontacto.php" method="get">
+        <p><label for="nombre">Nombre y Apellidos:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre y apellidos" required></p>
+        <p><label for="fecha">Fecha de Nacimiento:</label><br>
+            <input type="date" id="fecha" name="fecha" required></p>
+        <p><label for="valoracion">Valora nuestro servicio (1-5):</label><br>
+            <input type="number" id="valoracion" name="valoracion" min="1" max="5"></p>
+        <p><label for="ciudad">Ciudad:</label><br>
+            <select id="ciudad" name="ciudad">
+                <option value="madrid" selected>Madrid</option>
+                <option value="barcelona">Barcelona</option>
+                </select></p>
+        <p><label for="terminos">Acepto los términos y condiciones</label><br>
+            <input type="checkbox" id="terminos" name="terminos" checked></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

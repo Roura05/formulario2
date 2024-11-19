@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Doto:wght@100..900&family=Fascinate&family=Geo:ital@0;1&family=Miniver&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+body {
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-family: Parisienne;
+    font-size: 3em;
+    text-align: center;
+    color: DarkGoldenRod;
+    margin-bottom: 5px;
+  }
+  
+  #eslogan {
+    font-family: Caveat;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+    color: CornSilk;
+    border: 2px solid CornSilk;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #FFE4C4;
+    font-family: Pacifico;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li a {
+    font-size: 1.5em;
+    font-family: Pacifico;
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+  }
+  
+  ul li a:active {
+    color: DarkGoldenRod;
+  }
+  
+  .texto-normal {
+    font-family: Satisfy;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+  }
+  
+  #logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  #contenedor-logo {
+    text-align: center;
+  }
+  
+  body {
+    background-image: url("imagenes/descargar.jpeg"); 
+    background-size: cover;
+  }
+  
+  ul li {
+    color: white;
+  }
+
+  table {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid DarkGoldenRod;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+td, th {
+    border: 3px solid DarkGoldenRod;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+td{
+  background-color: #FFE4C4;
+
+}
+
+.categoria {
+    background-color: DarkGoldenRod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+
+.fotocarta {
+    width: 200px;
+    height: 200px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid DarkGoldenRod;
+  border-radius: 20px;
+  background-color: black;
+}
+
+label {
+  font-family: Caveat;
+  color: cornsilk;
+  font-size: 1.5em;
+}
+
+img{
+  font-family: "Miniver", cursive;
+}
